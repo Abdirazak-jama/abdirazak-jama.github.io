@@ -1,0 +1,83 @@
+/* General Styling */
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    color: #333;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Header Styles */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.75em;
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+h3 {
+    color: #7f8c8d;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+/* Add some padding and max-width to center the content */
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: beige; /* Beige background */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add some hover effects */
+p:hover {
+    background-color: #ecf0f1;
+}
+
+/* Emphasize quotes in the subtitle */
+h2 em {
+    color: #e74c3c;
+    font-style: normal;
+    font-weight: bold;
+}
