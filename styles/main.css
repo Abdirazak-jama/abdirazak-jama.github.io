@@ -1,0 +1,93 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* Light grey background */
+    color: #333; /* Dark grey text color */
+}
+
+/* Header styling */
+header {
+    background-color: #4A90E2; /* Bright blue background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #357ABD; /* Darker blue border */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #2C3E50; /* Dark grey-blue background */
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #3498DB; /* Lighter blue hover effect */
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 900px;
+    background-color: #FAF3E0; /* Beige background */
+    border: 1px solid #DDDDDD; /* Light grey border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    color: #2C3E50; /* Dark grey-blue text for section titles */
+    border-bottom: 2px solid #4A90E2; /* Blue underline */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+/* Image styling */
+.responsive-img {
+    max-width: 100%; /* Ensure images scale with their container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing issues */
+    margin: 20px 0; /* Add space above and below images */
+    border: 1px solid #DDDDDD; /* Light border around images */
+    border-radius: 8px; /* Optional rounded corners */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4A90E2; /* Bright blue background */
+    color: white;
+    border-top: 3px solid #357ABD; /* Darker blue border on top */
+    margin-top: 20px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    section {
+        padding: 10px;
+        margin: 5px;
+    }
+}
